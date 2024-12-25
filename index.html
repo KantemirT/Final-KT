@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Central Интернет-магазин ПК</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <aside id="sidebar">
+    <nav>
+      <div class="image">
+        <img src="https://cdn3.iconfinder.com/data/icons/smashicons-essentials-md-solid-vol-4/24/363_-_Menu_interaction_communication_essential-512.png" alt="" width="40px" height="35px">
+      </div>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+        <li><a href="#delivery">Доставка и оплата</a></li>
+        <li><a href="#promotions">Акции</a></li>
+        <li><a href="#cart">Корзина</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  
+  <main>
+    
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Интернет-магазин компьютеров</h1>
+        <p>Лучшие ПК для работы, игр и творчества</p>
+        <a href="#catalog" class="btn">Перейти в каталог</a>
+      </div>
+    </section>
+
+    
+    <section id="catalog" class="catalog">
+      <div class="container">
+        <h2>Каталог товаров</h2>
+        
+        
+        <h3 class="category-title">Игровые ПК</h3>
+        <div class="product-list">
+          <div class="product">
+            <img src="https://cdn1.ozone.ru/s3/multimedia-f/c600/6491688555.jpg" alt="Игровой ПК 1">
+            <h3>Игровой ПК</h3>
+            <p>Компьютер с видеокартой NVIDIA RTX 3080 и процессором AMD Ryzen 7.</p>
+            <p>Цена: $1200</p>
+            <button class="btn" onclick="addToCart('Игровой ПК', 1200)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://sc01.alicdn.com/kf/HTB1.U1NM9zqK1RjSZFHq6z3CpXa7/Alseye-for-pc-case-gaming-pc-case.jpg" alt="Игровой ПК 2">
+            <h3>Игровой ПК</h3>
+            <p>Компьютер с видеокартой NVIDIA RTX 3070 и процессором Intel Core i7.</p>
+            <p>Цена: $1500</p>
+            <button class="btn" onclick="addToCart('Игровой ПК', 1500)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://n.cdn.cdek.shopping/images/shopping/4e680f45b21d42598064d24c58999337.jpg?v=1" alt="Игровой ПК 2">
+            <h3>Игровой ПК</h3>
+            <p>Компьютер с видеокартой NVIDIA RTX 4090 и процессором  Intel Core i9.</p>
+            <p>Цена: $1500</p>
+            <button class="btn" onclick="addToCart('Игровой ПК', 1500)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://avatars.mds.yandex.net/get-mpic/5231998/img_id1251239808597992295.png/9" alt="Игровой ПК 2">
+            <h3>Игровой ПК</h3>
+            <p>Компьютер с видеокартой NVIDIA RTX 3060 и процессором Intel Core i5.</p>
+            <p>Цена: $1500</p>
+            <button class="btn" onclick="addToCart('Игровой ПК', 1500)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/mifcombigboss.jpg" alt="Игровой ПК 2">
+            <h3>Игровой ПК</h3>
+            <p>Компьютер с видеокартой NVIDIA RTX 3070 и процессором Intel Core i7.</p>
+            <p>Цена: $1500</p>
+            <button class="btn" onclick="addToCart('Игровой ПК', 1500)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://i.pinimg.com/736x/0a/a9/48/0aa94835fee149cbc7c9c178ae97b47e.jpg" alt="Игровой ПК 3">
+            <h3>Игровой ПК</h3>
+            <p>Компьютер с видеокартой NVIDIA RTX 3060 и процессором AMD Ryzen 5.</p>
+            <p>Цена: $1000</p>
+            <button class="btn" onclick="addToCart('Игровой ПК', 1000)">Добавить в корзину</button>
+          </div>
+        </div>
+
+        
+        <h3 class="category-title">Дивайсы для ПК</h3>
+        <div class="product-list">
+          <div class="product">
+            <img src="https://laptop.ru/upload/iblock/63d/63d37f84a6e17c5b8ca423cc363c3339.jpg" alt="Клавиатура Redragon Caraxes Pro">
+            <h3>Клавиатура</h3>
+            <p>Клавиатура Redragon Caraxes Pro.</p>
+            <p>Цена: $50</p>
+            <button class="btn" onclick="addToCart('Клавиатура Redragon Caraxes Pro', 50)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://cdn1.ozone.ru/s3/multimedia-9/6618108321.jpg" alt="Игровая мышь Logitech G203 LIGHTSYNC">
+            <h3>Мышь</h3>
+            <p>Игровая мышь Logitech G203 LIGHTSYNC.</p>
+            <p>Цена: $100</p>
+            <button class="btn" onclick="addToCart('Игровая мышь Logitech G203 LIGHTSYNC', 100)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://seriylis.ru/upload/iblock/d07/d07d753b0c25e714eeaa26b9b45e0ef1.jpg" alt="Наушники SmartBuy Rush">
+            <h3>Наушники</h3>
+            <p>Наушники SmartBuy Rush.</p>
+            <p>Цена: $80</p>
+            <button class="btn" onclick="addToCart('Наушники SmartBuy Rush', 80)">Добавить в корзину</button>
+          </div>
+        </div>
+
+        
+        <h3 class="category-title">Комплектующие ПК</h3>
+        <div class="product-list">
+          <div class="product">
+            <img src="https://img.xcomdb.ru/pim/JPG/31/3Ke9j2rCzx_700700.webp" alt="Видеокарта">
+            <h3>Видеокарта</h3>
+            <p>Видеокарта PCI-E GIGABYTE GeForce RTX 4090.</p>
+            <p>Цена: $3600</p>
+            <button class="btn" onclick="addToCart('Видеокарта PCI-E GIGABYTE GeForce RTX 4090', 3600)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://www.nwht.ru/upload/iblock/2ba/am7vyekw9oi6ggdxwdcus6ib3txnj1pt.jpg" alt="Процессор">
+            <h3>Процессор</h3>
+            <p>Процессор Intel Core i9-14900KF.</p>
+            <p>Цена: $640</p>
+            <button class="btn" onclick="addToCart('Процессор Intel Core i9-14900KF', 640)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://img.xcomdb.ru/pim/JPG/e6/01adetTwUv_700700.webp" alt="Материнская плата">
+            <h3>Материнская плата</h3>
+            <p>Материнская плата ATX GIGABYTE X870 GAMING X WIFI7.</p>
+            <p>Цена: $400</p>
+            <button class="btn" onclick="addToCart('Материнская плата ATX GIGABYTE X870 GAMING X WIFI7', 400)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://img.xcomdb.ru/pim/JPG/f3/dUiP6kVAVP_700700.webp" alt="Видеокарта">
+            <h3>Видеокарта</h3>
+            <p>Видеокарта PCI-E ASUS Radeon RX 7900 XTX.</p>
+            <p>Цена: $1250</p>
+            <button class="btn" onclick="addToCart('Видеокарта PCI-E ASUS Radeon RX 7900 XTX', 1250)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://img.xcomdb.ru/pim/JPG/c6/Xo1JjWkIq1_750.jpg" alt="Процессор">
+            <h3>Процессор</h3>
+            <p>Процессор AMD Ryzen 9 3950X.</p>
+            <p>Цена: $600</p>
+            <button class="btn" onclick="addToCart('Процессор AMD Ryzen 9 3950X', 600)">Добавить в корзину</button>
+          </div>
+          <div class="product">
+            <img src="https://www.nwht.ru/upload/iblock/7de/qxz1uavz321w3uczacurspu2bbo68sji.jpg" alt="Материнская плата">
+            <h3>Материнская плата</h3>
+            <p>Материнская плата ASUS ROG RAMPAGE V EDITION 10.</p>
+            <p>Цена: $680</p>
+            <button class="btn" onclick="addToCart('Материнская плата ASUS ROG RAMPAGE V EDITION 10', 680)">Добавить в корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="about">
+      <div class="container">
+        <h2>О нас</h2>
+        <p>Мы предлагаем качественные компьютеры для работы, учебы и игр. Наши специалисты помогут вам выбрать оптимальное решение.</p>
+      </div>
+    </section>
+
+    
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2>Отзывы</h2>
+        <div class="review">
+          <p>"Отличный магазин! Быстрая доставка и качественный товар."</p>
+          <span>- Иван Иванов</span>
+        </div>
+        <div class="review">
+          <p>"Рекомендую! ПК работает без сбоев."</p>
+          <span>- Мария Петрова</span>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p>Телефон: +7 (988) 929-09-50</p>
+        <p>Email: info@pcshop.com</p>
+        <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+      </div>
+    </section>
+
+    
+    <section id="delivery" class="delivery">
+      <div class="container">
+        <h2>Доставка и оплата</h2>
+        <p>Мы предлагаем бесплатную доставку по всей стране при заказе от $500.</p>
+        <p>Способы оплаты: банковская карта, PayPal, Apple Pay.</p>
+      </div>
+    </section>
+
+    
+    <section id="promotions" class="promotions">
+      <div class="container">
+        <h2>Акции и скидки</h2>
+        <p>Скидка 10% на все игровые ПК до конца месяца!</p>
+        <p>При покупке комплектующих — бесплатная сборка ПК.</p>
+      </div>
+    </section>
+
+    
+    <section id="cart" class="cart">
+      <div class="container">
+        <h2>Корзина</h2>
+        <div id="cart-items"></div>
+        <p>Итого: $<span id="total-price">0</span></p>
+        <button class="btn">Оформить заказ</button>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Интернет-магазин ПК</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
